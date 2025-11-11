@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Curso de Framer Motion
 
-## Getting Started
+Aprende **animaciones modernas y fluidas con Framer Motion**, la librería más potente para crear transiciones, gestos y efectos visuales en aplicaciones React.  
+Este repositorio contiene el material y los proyectos desarrollados durante el curso, organizados por módulos y con ejemplos prácticos para aplicar en tus propios proyectos.
 
-First, run the development server:
+---
+
+## 🚀 Descripción
+
+**Framer Motion** es una librería para React que permite crear animaciones complejas con una sintaxis sencilla y declarativa.  
+En este curso aprenderás desde lo básico (transiciones, variantes, keyframes) hasta conceptos avanzados (gestos, animaciones en rutas, scroll, layout animations, y más).
+
+El propósito de este repositorio es servir como una **guía de aprendizaje y práctica**, con código comentado y ejemplos paso a paso.
+
+---
+
+## 🧠 Contenido del curso
+
+| Módulo | Tema                          | Descripción                                                          |
+| ------ | ----------------------------- | -------------------------------------------------------------------- |
+| 1      | Introducción                  | Instalación y primeros pasos con Framer Motion                       |
+| 2      | Transiciones básicas          | Uso de `motion.div`, propiedades `animate`, `initial` y `transition` |
+| 3      | Variantes                     | Organización de animaciones reutilizables                            |
+| 4      | Gestos                        | Animaciones con `whileHover`, `whileTap`, `drag`                     |
+| 5      | Animaciones de entrada/salida | Uso de `AnimatePresence`                                             |
+| 6      | Layout animations             | Animaciones automáticas al cambiar el layout                         |
+| 7      | Scroll y motion values        | Animaciones dependientes del desplazamiento                          |
+
+---
+
+## ⚙️ Instalación
+
+Clona el repositorio e instala las dependencias:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/JESUSHMSIS/framer-motion-course.git
+cd framer-motion-course
+bun install
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
