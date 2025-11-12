@@ -20,7 +20,7 @@ const AnimationControls = () => {
           },
           giro: {
             //<- otra variable que se puede pasar como propiedad al hook
-            rotate: "180deg",
+            rotate: "360deg",
           },
         }}
         whileHover="giro"
