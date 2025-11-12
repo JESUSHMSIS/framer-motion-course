@@ -15,9 +15,11 @@ const AnimationControls = () => {
         className="h-[100px] w-[100px] bg-white"
         variants={{
           inicio: {
+            //<- es como declarar variables
             rotate: "0deg",
           },
           giro: {
+            //<- otra variable que se puede pasar como propiedad al hook
             rotate: "180deg",
           },
         }}
